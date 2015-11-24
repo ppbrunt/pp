@@ -30,6 +30,7 @@
     _tableView.delegate=self;
     [self.view addSubview:_tableView];
     NSLog(@"wtffffff");
+    NSLog(@"这是一个实验分支");
 }
 
 -(void)initData
