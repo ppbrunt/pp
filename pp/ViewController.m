@@ -30,6 +30,8 @@
     _tableView.delegate=self;
     [self.view addSubview:_tableView];
     
+    NSLog(@"这特么也是一个分支2222222222");
+    
 }
 
 -(void)initData
