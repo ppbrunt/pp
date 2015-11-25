@@ -31,6 +31,9 @@
     [self.view addSubview:_tableView];
     NSLog(@"wtffffff");
     NSLog(@"这是一个实验分支");
+    
+    NSLog(@"这特么也是一个分支2222222222");
+    
 }
 
 -(void)initData
