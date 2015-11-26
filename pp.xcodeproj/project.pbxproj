@@ -21,6 +21,7 @@
 		11DB69291C06D5DF00207A1E /* KCPublicAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB69281C06D5DF00207A1E /* KCPublicAccountViewController.m */; };
 		11DB692C1C06D8B400207A1E /* KCQQContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB692B1C06D8B400207A1E /* KCQQContactViewController.m */; };
 		11DB692F1C06DBDA00207A1E /* KCFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB692E1C06DBDA00207A1E /* KCFriendViewController.m */; };
+		11DB69321C06F06E00207A1E /* KCSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11DB69311C06F06E00207A1E /* KCSettingsTableViewController.m */; };
 		11E667BC1C0550F700A5334A /* KCWebChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E667BB1C0550F700A5334A /* KCWebChatViewController.m */; };
 		11E667C21C0559CE00A5334A /* KCContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E667C11C0559CE00A5334A /* KCContactViewController.m */; };
 		11E667C51C055C2B00A5334A /* KCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E667C41C055C2B00A5334A /* KCTabBarViewController.m */; };
@@ -71,6 +72,8 @@
 		11DB692B1C06D8B400207A1E /* KCQQContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCQQContactViewController.m; sourceTree = "<group>"; };
 		11DB692D1C06DBDA00207A1E /* KCFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCFriendViewController.h; sourceTree = "<group>"; };
 		11DB692E1C06DBDA00207A1E /* KCFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCFriendViewController.m; sourceTree = "<group>"; };
+		11DB69301C06F06E00207A1E /* KCSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCSettingsTableViewController.h; sourceTree = "<group>"; };
+		11DB69311C06F06E00207A1E /* KCSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCSettingsTableViewController.m; sourceTree = "<group>"; };
 		11E667BA1C0550F700A5334A /* KCWebChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCWebChatViewController.h; sourceTree = "<group>"; };
 		11E667BB1C0550F700A5334A /* KCWebChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCWebChatViewController.m; sourceTree = "<group>"; };
 		11E667C01C0559CE00A5334A /* KCContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCContactViewController.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				11DB692B1C06D8B400207A1E /* KCQQContactViewController.m */,
 				11DB692D1C06DBDA00207A1E /* KCFriendViewController.h */,
 				11DB692E1C06DBDA00207A1E /* KCFriendViewController.m */,
+				11DB69301C06F06E00207A1E /* KCSettingsTableViewController.h */,
+				11DB69311C06F06E00207A1E /* KCSettingsTableViewController.m */,
 			);
 			name = push;
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11DB69321C06F06E00207A1E /* KCSettingsTableViewController.m in Sources */,
 				11AB03C71BFC8BEC009D1FAC /* ViewController.m in Sources */,
 				11AB03C41BFC8BEC009D1FAC /* AppDelegate.m in Sources */,
 				11AB03C11BFC8BEC009D1FAC /* main.m in Sources */,
