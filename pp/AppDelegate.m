@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "KCContactViewController.h"
+#import "KCWebChatViewController.h"
+#import "KCTabBarViewController.h"
+
 
 @interface AppDelegate ()
 
@@ -17,7 +21,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+    _window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    KCTabBarViewController *tabBarController=[[KCTabBarViewController   alloc]init];
+    
+    KCWebChatViewController *webChatViewController=[[KCWebChatViewController alloc]init];
+    
+    KCContactViewController *contactViewController=[[KCContactViewController alloc]init];
+    tabBarController.viewControllers=@[webChatViewController,contactViewController];
+    for (UIViewController *controller in tabBarController.viewControllers) {
+        UIViewController *view=controller.view;
+    }
+    _window.rootViewController=tabBarController;
+    [_window makeKeyAndVisible];
+
+    
+    
+    
+    
+    
+    
+    
     return YES;
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

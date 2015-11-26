@@ -18,6 +18,9 @@
 		11AB03F61BFC8CFE009D1FAC /* KCStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AB03F51BFC8CFE009D1FAC /* KCStatus.m */; };
 		11AB03F91BFC8D40009D1FAC /* KCStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11AB03F81BFC8D40009D1FAC /* KCStatusTableViewCell.m */; };
 		11C0B2A61C02FF8900433F34 /* StatusInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11C0B2A51C02FF8900433F34 /* StatusInfo.plist */; };
+		11E667BC1C0550F700A5334A /* KCWebChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E667BB1C0550F700A5334A /* KCWebChatViewController.m */; };
+		11E667C21C0559CE00A5334A /* KCContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E667C11C0559CE00A5334A /* KCContactViewController.m */; };
+		11E667C51C055C2B00A5334A /* KCTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E667C41C055C2B00A5334A /* KCTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,12 @@
 		11AB03F71BFC8D40009D1FAC /* KCStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCStatusTableViewCell.h; sourceTree = "<group>"; };
 		11AB03F81BFC8D40009D1FAC /* KCStatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCStatusTableViewCell.m; sourceTree = "<group>"; };
 		11C0B2A51C02FF8900433F34 /* StatusInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StatusInfo.plist; sourceTree = "<group>"; };
+		11E667BA1C0550F700A5334A /* KCWebChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCWebChatViewController.h; sourceTree = "<group>"; };
+		11E667BB1C0550F700A5334A /* KCWebChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCWebChatViewController.m; sourceTree = "<group>"; };
+		11E667C01C0559CE00A5334A /* KCContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCContactViewController.h; sourceTree = "<group>"; };
+		11E667C11C0559CE00A5334A /* KCContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCContactViewController.m; sourceTree = "<group>"; };
+		11E667C31C055C2B00A5334A /* KCTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTabBarViewController.h; sourceTree = "<group>"; };
+		11E667C41C055C2B00A5334A /* KCTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +120,9 @@
 			children = (
 				11AB03C21BFC8BEC009D1FAC /* AppDelegate.h */,
 				11AB03C31BFC8BEC009D1FAC /* AppDelegate.m */,
-				11AB03C51BFC8BEC009D1FAC /* ViewController.h */,
-				11AB03C61BFC8BEC009D1FAC /* ViewController.m */,
+				11E667BE1C05596B00A5334A /* push */,
+				11E667BF1C05598900A5334A /* table */,
 				11AB03C81BFC8BEC009D1FAC /* Main.storyboard */,
-				11AB03F41BFC8CFE009D1FAC /* KCStatus.h */,
-				11AB03F51BFC8CFE009D1FAC /* KCStatus.m */,
-				11AB03F71BFC8D40009D1FAC /* KCStatusTableViewCell.h */,
-				11AB03F81BFC8D40009D1FAC /* KCStatusTableViewCell.m */,
 				11AB03CB1BFC8BEC009D1FAC /* Assets.xcassets */,
 				11AB03CD1BFC8BEC009D1FAC /* LaunchScreen.storyboard */,
 				11AB03D01BFC8BEC009D1FAC /* Info.plist */,
@@ -151,6 +156,32 @@
 				11AB03E61BFC8BEC009D1FAC /* Info.plist */,
 			);
 			path = ppUITests;
+			sourceTree = "<group>";
+		};
+		11E667BE1C05596B00A5334A /* push */ = {
+			isa = PBXGroup;
+			children = (
+				11E667BA1C0550F700A5334A /* KCWebChatViewController.h */,
+				11E667BB1C0550F700A5334A /* KCWebChatViewController.m */,
+				11E667C01C0559CE00A5334A /* KCContactViewController.h */,
+				11E667C11C0559CE00A5334A /* KCContactViewController.m */,
+				11E667C31C055C2B00A5334A /* KCTabBarViewController.h */,
+				11E667C41C055C2B00A5334A /* KCTabBarViewController.m */,
+			);
+			name = push;
+			sourceTree = "<group>";
+		};
+		11E667BF1C05598900A5334A /* table */ = {
+			isa = PBXGroup;
+			children = (
+				11AB03C51BFC8BEC009D1FAC /* ViewController.h */,
+				11AB03C61BFC8BEC009D1FAC /* ViewController.m */,
+				11AB03F41BFC8CFE009D1FAC /* KCStatus.h */,
+				11AB03F51BFC8CFE009D1FAC /* KCStatus.m */,
+				11AB03F71BFC8D40009D1FAC /* KCStatusTableViewCell.h */,
+				11AB03F81BFC8D40009D1FAC /* KCStatusTableViewCell.m */,
+			);
+			name = table;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +318,9 @@
 				11AB03C71BFC8BEC009D1FAC /* ViewController.m in Sources */,
 				11AB03C41BFC8BEC009D1FAC /* AppDelegate.m in Sources */,
 				11AB03C11BFC8BEC009D1FAC /* main.m in Sources */,
+				11E667C21C0559CE00A5334A /* KCContactViewController.m in Sources */,
+				11E667C51C055C2B00A5334A /* KCTabBarViewController.m in Sources */,
+				11E667BC1C0550F700A5334A /* KCWebChatViewController.m in Sources */,
 				11AB03F91BFC8D40009D1FAC /* KCStatusTableViewCell.m in Sources */,
 				11AB03F61BFC8CFE009D1FAC /* KCStatus.m in Sources */,
 			);
