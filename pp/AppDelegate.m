@@ -12,6 +12,11 @@
 #import "KCTabBarViewController.h"
 
 
+#import "KCContactViewController.h"
+#import "KCFriendViewController.h"
+#import "KCQQContactViewController.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -22,7 +27,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
+    /*
     _window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     KCTabBarViewController *tabBarController=[[KCTabBarViewController   alloc]init];
     
@@ -36,15 +41,29 @@
     _window.rootViewController=tabBarController;
     [_window makeKeyAndVisible];
 
+    */
+    _window =[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    _window.backgroundColor=[UIColor colorWithRed:249/255.0 green:249/255.0 blue:249/255.0 alpha:1];
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:23/255.0 green:180/255.0 blue:237/255.0 alpha:1]];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
     
     
+    KCFriendViewController *frinedViewController =[[KCFriendViewController alloc]init];
+    UINavigationController  *navigationController=[[UINavigationController alloc]initWithRootViewController:frinedViewController];
+    
+    _window.rootViewController =navigationController;
+    [_window makeKeyAndVisible];
     
     
-    
+
+   
     
     
     return YES;
     
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
