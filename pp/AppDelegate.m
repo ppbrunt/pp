@@ -58,7 +58,7 @@
     
     
 */
-   
+      _window.backgroundColor=[UIColor colorWithRed:249/255.0 green:249/255.0 blue:249/255.0 alpha:1];
     
     
     return YES;
